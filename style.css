@@ -1,0 +1,181 @@
+*{
+    font-size: 62.5%;
+    font-weight:normal;
+    text-decoration: none;
+}
+
+html{
+    text-align: center;
+    font-family: "open sans", sans-serif;
+}
+
+header {
+    background-color: rgb(198, 226, 224);
+    text-transform: uppercase;
+}
+
+.menu li{
+    margin: auto;
+    display: inline-block;
+    padding: 20px 15px;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(198, 226, 224);
+    text-transform: uppercase;
+}
+
+.submenu a{
+    display: block;
+}
+
+
+.menu {
+    display: inline-block;
+}
+
+.bajan:hover .submenu {
+    display: block;
+}
+
+
+header a{
+        text-decoration: none;
+        color: azure;    
+        font-size: 2rem;
+    }
+
+header a:hover{
+    color:rgb(220, 234, 235);
+}
+
+.centro{
+    color: lightslategray;   
+    margin: auto;
+    width: 80%;
+}
+
+.centro p {
+    font-size: 1.5rem;
+    text-decoration: none;
+    line-height: 30px;
+    }
+
+
+h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+hr {
+        border-top: 2px dotted rgb(152, 220, 230);
+    }
+
+h2, legend {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 10px;
+    font-weight: 700;
+}
+
+
+footer a{
+    background-color: rgb(198, 226, 224);
+    text-transform: uppercase;
+    /* como lo bajo hasta el final?*/  
+    color: azure;    
+}
+
+
+table, th, td {
+    margin-left:auto; 
+    margin-right:auto;
+    background-color: lightslategray;
+    border: 10px solid white;
+}
+
+caption {
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+td{
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+fieldset{
+    margin-left:auto; 
+    margin-right:auto;
+    width: 70%;
+}
+
+i{
+    font-size: 3rem;
+    padding: 10px;
+    color: rgb(198, 226, 224);
+}
+
+.abajo {
+    width: 100px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color:rgb(198, 226, 224);
+    border-radius: 50px;
+    border: none;
+}
+
+textarea {
+    width: 300px;
+    height: 150px;
+  }
+
+select{
+    background-color:rgb(198, 226, 224);
+    border: none;
+    height: 20px;
+    width: 200px;
+}
+
+.formulario{
+    border: dotted;
+    border-color: rgb(198, 226, 224);
+}
+
+[target=_blank]  { 
+   font-size: 5em;
+}
+
+label{
+    font-size: 3em;
+    display: block;
+}
+
+.separar{
+    margin-bottom: 20px;
+}
+
+input{
+    margin-top: 10px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    }
+
+[target=_boton]  { 
+    font-size: 2em;
+    color:lightslategray;
+    font-variant: small-caps;
+    }
